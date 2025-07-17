@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 2em;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Headings */
+h1,
+h2 {
+  color: #4a4e69;
+}
+
+h1 {
+  font-size: 2.2em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.6em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Paragraph */
+#pra {
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+  text-align: justify;
+}
+
+/* Image Section */
+.image img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: auto;
+  border-radius: 12px;
+}
+
+#cap {
+  font-size: 0.95em;
+  text-align: center;
+  margin-top: 0.5em;
+  color: #666;
+}
+
+/* List Styles */
+.books ul,
+.interest ol {
+  margin-left: 1.5em;
+  padding-left: 1em;
+}
+
+.books li,
+.interest li {
+  margin-bottom: 0.5em;
+}
+
+/* Table Styles */
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+.table th,
+.table td {
+  padding: 0.8em;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.table thead {
+  background-color: #e0e0f8;
+}
+
+/* Links */
+a {
+  color: #4a4e69;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+  background-color: #f0f0f0;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+form input.submit-button {
+  background-color: #4a4e69;
+  color: white;
+  border: none;
+  padding: 0.8em 1.5em;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  display: inline-block;
+}
+
+form input.submit-button:hover {
+  background-color: #6c5ce7;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 2em;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  #pra {
+    font-size: 0.95em;
+  }
+
+  .image img {
+    max-width: 100%;
+  }
+
+  .table table,
+  .table thead,
+  .table tbody,
+  .table th,
+  .table td,
+  .table tr {
+    font-size: 0.85em;
+  }
+
+  form {
+    padding: 0.8em;
+  }
+}
