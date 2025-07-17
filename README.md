@@ -1,1 +1,2 @@
 # Personal-web-page
+Creating this personal webpage was both fun and challenging. I enjoyed writing the HTML because it felt straightforward and creative. What surprised me was how complex CSS can be making everything look good and balanced took more effort than I expected. It was difficult to align sections properly and choose the right colors and spacing. Still, I learned a lot and felt proud when I saw the final result. This project really helped me understand how web pages come to life with structure and style!
